@@ -1,0 +1,108 @@
+Product;Symbol;Description;Type
+Angstrom Exponent;angstrom;Angstrom exponent for aerosol model used in the L2 process;Standard
+Aerosol Optical Thickness;aot;The optical depth due to aerosols within the atmosphere;Standard
+CDOM Index;cdom_index;Chlorophyll-chromophoric dissolved organic matter (CDOM) proportion index;Standard
+Chlorophyll a;chlor_a;Chlorophyll a concentration from sensor default chlorophyll algorithm;Standard
+Downwelling diffuse attenuation coefficient at 490 nm;kd_490;Statistical correlation between Kd(490) and the ratio of nLw(490) to nLw(555);Standard
+Level 2 Flags;l2_flags;Processing flags stored in a bitwise integer;Standard
+Photosynthetically Available Radiation;par;Daily integrated photosynthetically available radiation from 400 - 700 nm;Standard
+Particulate Inorganic Carbon;pic;Particulate inorganic carbon concentration;Standard
+Particulate Organic Carbon;poc;Particulate organic carbon concentration;Standard
+Sea Surface Temperature Quality;qual_sst;Quality level for 11um Sea Surface Temperature values determined based on algorithm flagging criteria;Standard
+Sea Surface Temperature Quality - 4um;qual_sst4;Quality level for 4um Sea Surface Temperature values determined based on algorithm flagging criteria;Standard
+Remote Sensing Reflectance;Rrs;Sea surface reflectance defined as the ratio of water-leaving radiance to surface irradiance;Standard
+Sea Surface Temperature;sst;Sea surface temperature measured using the 11 and 12 micron channels;Standard
+Sea Surface Temperature 4um;sst4;Sea surface temperature measured using the 3 and 4 um channels;Standard
+Dissolved/Detrital Absorption Coefficient - GIOP;adg_giop;Absorption coefficient for dissolved and detrital material derived using the GIOP model;Non-Standard
+Dissolved/Detrital Absorption Coefficient - GSM;adg_gsm;Absorption coefficient for dissolved and detrital material derived using the GSM model;Non-Standard
+Dissolved/Detrital Absorption Coefficient - QAA;adg_qaa;Absorption coefficient for dissolved and detrital material derived using the QAA model;Non-Standard
+Phytoplankton Absorption Coefficient - GIOP;aph_giop;Phytoplankton absorption coefficient as derived using the GIOP model;Non-Standard
+Phytoplankton Absorption Coefficient - GSM;aph_gsm;Phytoplanton absorption coefficient derived using the GSM model;Non-Standard
+Phytoplankton Absorption Coefficient - QAA;aph_qaa;Phytoplankton absorption coefficient as derived using the QAA model;Non-Standard
+Absorbed Radiation by Phytoplankton;arp;Total radiance absorbed by phytoplankton;Non-Standard
+Total Absorption Coefficient - GIOP;a_giop;Total absorption coefficient as derived using the GIOP model;Non-Standard
+Total Absorption Coefficient - GSM;a_gsm;Total absorption coefficient as derived using the GSM model;Non-Standard
+Total Absorption Coefficient - QAA;a_qaa;Total absorption coefficient as derived using the QAA model;Non-Standard
+Particulate backscattering coefficient - GIOP;bbp_giop;Backscattering coefficient due to particles as derived using the GIOP model;Non-Standard
+Particulate backscattering coefficient - GSM;bbp_gsm;Particulate backscattering coefficient as derived using the GSM model;Non-Standard
+Particulate backscattering coefficient - QAA;bbp_qaa;Backscattering coefficient due to particles as derived using the QAA model;Non-Standard
+Backscattering coefficient -GIOP;bb_giop;Backscattering coefficient as derived using the GIOP model;Non-Standard
+Backscattering coefficient - GSM;bb_gsm;Backscattering coefficient as derived using the GSM model;Non-Standard
+Backscattering coefficient - QAA;bb_qaa;Backscattering coefficient as derived using the QAA model;Non-Standard
+Brightness Temperature;BT;Thermal emmission from the sea surface in the infrared bands;Non-Standard
+"Calcite concentration, 2-band ";calcite_2b;Calcite concentration determined by the 2 band algorithm;Non-Standard
+"Calcite concentration, 3-band";calcite_3b;Calcite concentration as determined by the 3 band algorithm;Non-Standard
+Chloropyll Fluorescence Efficiency;cfe;A estimate of the efficiency of the conversion of absorbed solar radiation into fluorescence by phytoplankton;Non-Standard
+OC2 Chlorophyll;chlor_oc2;Band ratio chlorophyll algorithm using Rrs 490 and 555 nm;Non-Standard
+OC3 Chlorophyll;chlor_oc3;"Maximum band ratio chlorophyll algorithm using Rrs 443, 488 (490 for SeaWiFS) and 551 (555 for SeaWiFS) nm";Non-Standard
+OC4 Chlorophyll;chlor_oc4;"Maximum band ratio chlorophyll algorithm using Rrs 443, 490, 510, and 555 nm";Non-Standard
+"Chlorophyll a, Clark empirical model";chl_clark;Chlorophyll a concentration as derived from the Clark empirical algorithm;Non-Standard
+"Chlorophyll a, Garver-Siegel-Maritorena bio-optical model";chl_gsm;Chlorophyll a concentration as derived from the Garver-Siegel-Maritorena bio-optical model;Non-Standard
+"Chlorophyll a, OCTS_C ";chl_octsc;Chlorophyll a concentration as derived using the OCTS_C empirical algorithm;Non-Standard
+Enhanced Vegetation Index;evi;Enhanced Vegetation Index;Non-Standard
+Sea Surface Temperature Flags;flags_sst;Bitwise integer flag set by the 11um SST algortihm;Non-Standard
+Sea Surface Temperature Flags - 4um;flags_sst4;Bitwise integer flags set by the 4um SST algorithm;Non-Standard
+Fluorescence Line Height;flh;Radiance above a baseline value resulting from chlorophyll fluorescence;Non-Standard
+Instantaneous Photosynthetically Available Radiation;ipar;An estimate of the instantaneous PAR;Non-Standard
+Diffuse Attenuation - Lee model;Kd_lee;Spectral diffuse attenuation as derived using the model of Lee;Non-Standard
+Diffuse Attenuation - Morel model;Kd_morel;Spectral diffuse attenuation as derived using the model of Morel;Non-Standard
+Diffuse Attenuation coefficient at 490 nm - Mueller;Kd_mueller;The diffuse attenuation coefficient at 490 nm as derived using the Mueller algorithm;Non-Standard
+Diffuse Attenuation coefficient at 490 nm - OBPG;Kd_obpg;The diffuse attenuation coefficient at 490 nm as derived using the OBPG derieved model (equivalent to K490);Non-Standard
+Diffuse Attenuation of PAR - Lee model;KPAR_lee;Diffuse Attenuation of photosynthecially available radiation as derived using the model of Lee;Non-Standard
+Diffuse Attenuation of PAR - Morel model;KPAR_morel;Diffuse attenuation of photosynthetically available radiation as derived using the model of Morel;Non-Standard
+Normalized Difference Vegetation Index;ndvi;Normalized Difference Vegetation Index;Non-Standard
+Particulate Organic Carbon - Clark;poc_clark;Estimate of particulate organic carbon concentration based on an empirical relationship defined by Clark;Non-Standard
+Particulate Organic Carbon - Stramski 490;poc_stramski_490;Particulate organic carbon as derived from the 490nm-based model of Stramski;Non-Standard
+Total Suspended Material - Clark;tsm_clark;Total suspended material as derived by the model of Clark;Non-Standard
+Euphotic Depth - Morel;Zeu_morel;Depth of the euphotic zone (1% light level) as derived using the model of Morel;Non-Standard
+Heating Layer Depth;Zhl_morel;Depth of the solar heated layer derived from the model of Morel;Non-Standard
+Euphotic Depth - Lee;Zphotic_lee;Depth of the euphotic zone (user defined light level) as derived using the model of Lee;Non-Standard
+Secchi Depth;Zsd_morel;Estimate of Secchi disk depth derived using the model of Morel;Non-Standard
+Aerosol Model - maximum;aer_model_max;Model number for the upper bounding aerosol model selected by the atmospheric correction process;Intermediate/Ancillary
+Aerosol Model - minimum;aer_model_min;Model number for the lower bounding aerosol model selected by the atmospheric correction process;Intermediate/Ancillary
+Aerosol Model - ratio;aer_ratio;Fractional percentage used in aerosol model mixing;Intermediate/Ancillary
+Bi-directional Reflectance Correction Factor;brdf;Bi-directional Reflectance Correction Factor used in the estimation of exact normalized water-leaving radiance;Intermediate/Ancillary
+Cloud albedo;cloud_albedo;Reflectance used for cloud/ice flag threshold;Intermediate/Ancillary
+Detector Number;detnum;Index value for sensor detector;Intermediate/Ancillary
+Degree of Polarization;dpol;Degree of polarization of TOA radiance as measured by the satellite sensor;Intermediate/Ancillary
+Epsilon of aerosol correction;epsilon;The ratio of aerosol reflectance in the two NIR bands. Used in the aerosol model determination.;Intermediate/Ancillary
+Surface irradiance;Es;Solar irradiance at the sea surface;Intermediate/Ancillary
+Earth-Sun distance correction factor;fsol;Earth-Sun distance correction factor used in the normalization of water-leaving radiance;Intermediate/Ancillary
+Glint coefficient;glint_coeff;Glint radiance normalized by solar irradiance;Intermediate/Ancillary
+Terrain Height;height;Height of the surface terrain - Land processing only;Intermediate/Ancillary
+Relative humidity;humidity;Relative humidity as interpolated from input ancillary data;Intermediate/Ancillary
+GSM algorithm iterations;iter_gsm;The number of iterations to reach convergence for the GSM algorithm;Intermediate/Ancillary
+Aerosol Radiance;La;Contribution to Lt by aerosols within the atmosphere;Intermediate/Ancillary
+Rayleigh Radiance;Lr;Contribution to Lt by Rayleigh scattering within the atmosphere;Intermediate/Ancillary
+Top of Atmosphere Radiance;Lt;At sensor measured radiance;Intermediate/Ancillary
+Water-leaving Radiance;Lw;Radiance exiting the sea surface;Intermediate/Ancillary
+Polarized Radiance - Stokes Q vector;L_q;The Q component of the Stokes vector for polarized radiance;Intermediate/Ancillary
+Polarized Radiance - Stokes U vector;L_u;The U component of the Stokes vector for polarized radiance;Intermediate/Ancillary
+Mirror Side;mside;Index value for sensor mirror side;Intermediate/Ancillary
+Meridional wind speed;mwind;Meridional wind speed as interpolated from input ancillary data;Intermediate/Ancillary
+Normalized water-leaving radiance;nLw;Water-leaving radiance normalized to a zenith viewing geometry at the mean Earth-Sun distance;Intermediate/Ancillary
+Statospheric NO2;no2_strat;Stratospheric NO2 concentration as interpolated from input ancillary data;Intermediate/Ancillary
+Tropospheric NO2;no2_tropo;Tropospheric NO2 concentration as interpolated from input ancillary data;Intermediate/Ancillary
+NIR correction algorithm iterations;num_iter;The number of iterations to reach convergence for the NIR correction algorithm;Intermediate/Ancillary
+Ozone concentration;ozone;Ozone concentration interpolated from input ancillary data;Intermediate/Ancillary
+Pixel Number;pixnum;Index number for sensor pixel;Intermediate/Ancillary
+Polarization Correction Coefficient;polcor;Polarization correction coefficient;Intermediate/Ancillary
+Barometric pressure;pressure;Barometric pressure as interpolated from input ancillary data;Intermediate/Ancillary
+Surface Reflectance - Mumm;rhom;Surface reflectance used by the Mumm NIR correction algorithm;Intermediate/Ancillary
+Surface Reflectance;rhos;Rayleigh subtracted reflectance;Intermediate/Ancillary
+Top of Atmosphere Reflectance;rhot;Reflectance measured at the top of atmosphere;Intermediate/Ancillary
+Sensor Azimuth Angle;sena;Sensor azimuth angle;Intermediate/Ancillary
+Sensor Zenith Angle;senz;Sensor view angle relative to the zenith (Earth reference frame);Intermediate/Ancillary
+Solar Azimuth Angle;sola;Azimuth angle of the solar plane;Intermediate/Ancillary
+Solar Zenith Angle;solz;Angle of the Sun relative to the zenith (i.e. 90 degrees is the horizon);Intermediate/Ancillary
+Reference Sea Surface Temperature;sstref;Sea Surface Temperature interpolated from input ancillary data;Intermediate/Ancillary
+Gaseous transmittance;tg;"Atmospheric transmittance factor resulting from gaseous attenuation (e.g. ozone, NO2, H2O, CO2)";Intermediate/Ancillary
+Whitecap (foam) Radiance;tLf;Radiance reflected by surface whitecaps (foam) transmitted to the top of atmosphere;Intermediate/Ancillary
+Glint radiance at top of atmosphere;TLg;Specular reflection off the sea surface transmitted to the top of atmosphere;Intermediate/Ancillary
+Total oxygen transmittance;t_o2;Atmospheric transmittance factor due to oxygen absorption;Intermediate/Ancillary
+Diffuse transmittance in the sensor path;t_sen;The diffuse transmittance within the atmosphere in the path of the sea surface to the remote sensor;Intermediate/Ancillary
+Diffuse transmittance in the solar path;t_sol;The diffuse transmittance within the atmosphere in the path of the Sun to the sea surface;Intermediate/Ancillary
+Precipitable water concentration;water_vapor;Precipitable water concentration as interpolated from input ancillary data;Intermediate/Ancillary
+Wind direction;windangle;Direction of wind from input ancillary data;Intermediate/Ancillary
+Windspeed;windspeed;Wind speed interpolated from input ancillary data;Intermediate/Ancillary
+Zonal wind speed;zwind;Zonal wind speed as interpolated from input ancillary data;Intermediate/Ancillary
